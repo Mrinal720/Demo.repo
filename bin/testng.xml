@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+   <suite name="Facebok  automation">
+     <test name="login page" verbose="2">
+     
+       <parameter name="url" value="https://www.facebook.com/" />
+       <parameter name="email" value="bhardwajmrinal7@gmail.com" />
+       <parameter name="password" value="*********" />
+       
+       <classes>
+          <class name="testng.org.Testngpractice"/>
+       </classes>
+       
+       </test>
+       </suite>
